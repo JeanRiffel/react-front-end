@@ -1,13 +1,18 @@
 import { Link } from "react-router-dom";
-import Button from "../components/Button/Button";
+import Button from '@mui/material/Button';
+import "./HomePage.css";
 
 function HomePage(){
     return(
-        <div>
-            <h1>Home Page</h1>
+        <div className="home-body">
+            <header className="home-header" >
+                <h1>Grocerie List</h1>
+            </header>
+
             <Link to='/order'>
-                <Button value="Create Order" />
-            </Link>             
+                <Button variant="contained">Create List</Button>                
+            </Link>        
+            <Button variant="contained">View List</Button>
         </div>
     )
 }
