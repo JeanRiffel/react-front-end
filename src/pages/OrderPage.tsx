@@ -1,4 +1,4 @@
-import FormOrder from "../components/Forms/FormOrder";
+import FormOrder from "../components/form/FormOrder";
 
 export function OrderPage(){
     return (

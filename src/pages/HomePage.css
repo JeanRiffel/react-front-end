@@ -1,0 +1,10 @@
+.home-body{
+    background-color:rgb(0, 0, 165)
+}
+
+.home-header{
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
