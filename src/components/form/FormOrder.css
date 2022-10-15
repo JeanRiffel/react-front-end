@@ -1,0 +1,23 @@
+.order-title{    
+    display: flex;
+    background-color:rgb(13, 128, 230);
+    
+}
+
+.form{
+    display: flex;
+    background-color:silver;    
+}
+
+.form-item{    
+    float: left;
+}
+
+.label-item{
+    float: left;
+}
+
+.form-button{
+    display: flex;
+    
+}

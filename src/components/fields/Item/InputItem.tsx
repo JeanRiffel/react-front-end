@@ -1,9 +1,9 @@
 
-function InputItem({label, onBlur}) {
+function InputItem({className, onBlur}) {
     return(
-        <div>
-            <label>{label}: </label>
+        <div>            
             <input 
+                className={className}
                 type="text" 
                 onBlur={onBlur}  
             />

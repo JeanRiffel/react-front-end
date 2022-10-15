@@ -1,10 +1,10 @@
 
-function InputValue({label, onBlur}) {
+function InputValue({className, onBlur}) {
 
     return (
-        <div>
-            <label>{label}:</label>
+        <div>            
             <input 
+                className={className}
                 type="text" 
                 onBlur={onBlur} 
             />

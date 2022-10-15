@@ -1,10 +1,36 @@
-.home-body{
-    background-color:rgb(0, 0, 165)
+.home-page{
+
 }
 
-.home-header{
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
+.home-body{
+    display: flex;
+    background-color:rgb(13, 128, 230)
+}
+
+.home-header{        
+    height: 300px;    
+}
+
+.title{
+    text-align: center;    
+    color: white;
+    display: block;
+}
+
+.button-bar{
+    display: flex;
+    background-color: rgba(149, 240, 225, 0.534);
+    justify-content: center;
+    height: 100px;
+}
+
+.button-item{
+    background-color: blueviolet;
+    height: 100px;
+    width: 200px;    
+}
+
+.button{
+    height: 100px;
+    width: 200px;
 }
